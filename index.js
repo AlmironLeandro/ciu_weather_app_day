@@ -9,8 +9,9 @@ consultarApi = ()=> {
   fetch(url)
     .then(respuesta => respuesta.json())
       .then(resultado => {
+        var datoActual = new Date()
         document.getElementById("daytime").innerHTML = `<img class="imagenes" src="/Imagenes/daytime.png"><p>${new Date(resultado.current.dt).toString().substr(15,10)}</br><span class="gris">daytime</span></p>`,
-        document.getElementById("data").innerHTML =`<p>Sunday, 19 May 2019 4:30PM</p>`,
+        document.getElementById("data").innerHTML =`<p>${datoActual.toString().substr(0,21)}</p>`,
         document.getElementById("timezone").innerHTML =`<p class="localidad">Tesei, Buenos Aires  <img class="gps" src="Imagenes/gps.png"> </p> `,
 
         document.getElementById("tiempo").innerHTML =`<p><img class="imagenes" src="Imagenes/tiempo.png"></br>${resultado.current.weather[0].description}</p>`,
