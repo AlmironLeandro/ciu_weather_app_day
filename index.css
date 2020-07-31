@@ -1,0 +1,129 @@
+body {
+ padding: 0;
+ margin: 0;
+}
+#data
+{
+    position: absolute;
+    right: 60%;
+    text-align: center;
+    color: #999999;
+    font-family: Barlow;
+    font-size: 120%;
+
+}
+.zona
+{
+    padding:1% ;
+    background: rgba(13, 159, 234, 0.08);
+    width: 48%;
+    margin-left:50% ;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 30%;
+}
+#timezone 
+{
+    position: relative;
+    margin-left: 20%;
+    color: #0DA0EA;
+}
+.gps
+{
+    width: 10%;
+    height: 3%;
+}
+#contenedor
+{
+    padding: 0;
+    margin: 0;
+    
+}
+.zgrado
+{
+    color:  #666666;
+    font-size: 50%;
+    top: 10%;
+    position: absolute;
+}
+.gris
+{
+    color:  #666666;
+    font-size: 80%;
+}
+p{
+    
+    font-family: Barlow;
+    font-size: 200%;
+    font-style: normal;
+    
+}
+
+.temperatura
+{
+    font-size: 900%;
+    bottom: 80%;
+    font-family: Barlow;
+    font-style: normal;
+    position: relative;
+
+  
+    
+}
+    
+.imagen_dia
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%; 
+    height: 35%;
+    
+    
+}
+.cajasDiv3
+{
+
+    position: relative;
+    width: 100%;
+    height:20%;
+    
+  
+}
+
+
+
+#panel_control
+{
+    /* margin: auto; */
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -16px 40px rgba(0, 0, 0, 0.2);
+}
+.caja 
+{  
+
+    text-align: center;
+    background-color:white;
+    height: 40%;
+    width: 20%;
+    padding: 0;
+    margin: 6%;
+    float: inline-start;
+    
+}
+
+.maxmin{
+  color:  #666666;
+}
+
+
+.imagenes{
+    width: 90%;
+    height: 80%;
+    background-color: red;
+}
